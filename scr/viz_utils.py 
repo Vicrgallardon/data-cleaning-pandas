@@ -1,0 +1,6 @@
+viz_utils.py 
+def plot_my_stuff():   
+    data.drop(['Unnamed: 22', 'Unnamed: 23'], axis=1, inplace=True)
+    data.drop(['Sex'], axis=1, inplace=True)
+    data.drop(['Activity','Area', 'Injury', 'Age'], axis=1, inplace=True)
+    data.drop(['pdf', 'href formula', 'href', 'Case Number.1', 'Case Number.2', 'original order', 'Investigator or Source', 'Location',  'Name', 'Case Number' ], axis=1, inplace=True)
